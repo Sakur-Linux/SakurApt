@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name="sapt",
-    version="0.0.2",
+    version="0.0.",
     description="aptコマンド支援ツール",
     author="sonyakun",
     packages=find_packages(),
