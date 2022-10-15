@@ -5,7 +5,7 @@ setup(
     description="aptコマンド支援ツール",
     author="sonyakun",
     packages=find_packages(),
-    install_requires="subprocess",
+    install_requires="requests",
     entry_points={
         "console_scripts": [
             "sapt purge=aptUtil:purge",
