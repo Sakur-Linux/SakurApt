@@ -8,9 +8,9 @@ setup(
     install_requires="requests",
     entry_points={
         "console_scripts": [
-            "sapt purge=aptUtil:purge",
-            "sapt install=aptUtil:install"
-            "sapt purge=aptUtil:purge"
+            "sapt-purge=aptUtil:purge",
+            "sapt-install=aptUtil:install"
+            "sapt-purge=aptUtil:purge"
         ]
     },
     classifiers=[
